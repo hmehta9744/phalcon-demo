@@ -14,5 +14,5 @@ $I->haveInSession('auth', [
 
 $I->amOnPage('/');
 $I->click('Invoices');
-$I->seeInCurrentUrl('/invoices/index');
+$I->seeInCurrentUrl('/invoices/');
 $I->see('Your Invoices');

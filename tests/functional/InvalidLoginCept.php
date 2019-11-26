@@ -9,7 +9,7 @@ $I->wantTo('login with invalid password and see banner');
 
 $I->amOnPage('/');
 $I->click('Log In/Sign Up');
-$I->seeInCurrentUrl('/session/index');
+$I->seeInCurrentUrl('/session/');
 
 $I->fillField('email',    'demo@phalconphp.com');
 $I->fillField('password', 'invalid');

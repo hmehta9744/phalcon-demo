@@ -9,7 +9,7 @@ $I->wantTo('login as regular user');
 
 $I->amOnPage('/');
 $I->click('Log In/Sign Up');
-$I->seeInCurrentUrl('/session/index');
+$I->seeInCurrentUrl('/session/');
 
 $I->see('Log In', "//*[@id='login-header']");
 $I->see("Don't have an account yet?", "//*[@id='signup-header']");
