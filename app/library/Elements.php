@@ -13,27 +13,27 @@ class Elements extends Component
 {
     private $headerMenu = [
         'navbar-left' => [
-            'index' => [
+            '' => [
                 'caption' => 'Home',
-                'action' => 'index'
+                'action' => ''
             ],
             'invoices' => [
                 'caption' => 'Invoices',
-                'action' => 'index'
+                'action' => ''
             ],
             'about' => [
                 'caption' => 'About',
-                'action' => 'index'
+                'action' => ''
             ],
             'contact' => [
                 'caption' => 'Contact',
-                'action' => 'index'
+                'action' => ''
             ],
         ],
         'navbar-right' => [
             'session' => [
                 'caption' => 'Log In/Sign Up',
-                'action' => 'index'
+                'action' => ''
             ],
         ]
     ];
@@ -41,22 +41,22 @@ class Elements extends Component
     private $tabs = [
         'Invoices' => [
             'controller' => 'invoices',
-            'action' => 'index',
+            'action' => '',
             'any' => false
         ],
         'Companies' => [
             'controller' => 'companies',
-            'action' => 'index',
+            'action' => '',
             'any' => true
         ],
         'Products' => [
             'controller' => 'products',
-            'action' => 'index',
+            'action' => '',
             'any' => true
         ],
         'Product Types' => [
             'controller' => 'producttypes',
-            'action' => 'index',
+            'action' => '',
             'any' => true
         ]
     ];
