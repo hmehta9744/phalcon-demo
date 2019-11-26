@@ -2,7 +2,7 @@
 
 <ul class="pager">
     <li class="previous pull-left">
-        {{ link_to("companies/index", "&larr; Go Back") }}
+        {{ link_to("companies/", "&larr; Go Back") }}
     </li>
     <li class="pull-right">
         {{ link_to("companies/new", "Create companies") }}

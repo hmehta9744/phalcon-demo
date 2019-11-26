@@ -60,7 +60,7 @@ class UserSteps
     {
         foreach ($data as $field => $value) {
             if (!isset($this->formFields[$field])) {
-                throw new \Exception("Form field  $field does not exist");
+                throw new \Exception("Form field $field does not exist");
             }
 
             $this->tester->fillField($field, $value);

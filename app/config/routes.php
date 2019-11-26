@@ -17,22 +17,22 @@ $router->setEventsManager($eventsManager);
 
 $router->add('/:controller', [
     'controller' => 1,
-    'action'     => 'index'
+    'action'     => ''
 ])->setName('front.controller');
 
 $router->add('/contact-us', [
     'controller' => 'contact',
-    'action'     => 'index'
+    'action'     => ''
 ])->setName('front.contact');
 
 $router->add('/login', [
     'controller' => 'session',
-    'action'     => 'index'
+    'action'     => ''
 ])->setName('login.route');
 
 $route = $router->add('/signin', [
     'controller' => 'session',
-    'action'     => 'index'
+    'action'     => ''
 ]);
 
 $route->setName('domain.route');
